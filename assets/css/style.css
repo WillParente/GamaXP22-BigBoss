@@ -842,7 +842,7 @@ aside.left-panel {
     min-height: 50px;
     margin: 0px;
     padding: 0px 15px;
-    background: #ffffff;
+    background: #5d7cdd;
     border-bottom: 0px; }
     .right-panel .page-header h1 {
       font-size: 18px;
@@ -858,7 +858,7 @@ aside.left-panel {
       content: "/\00a0"; }
 
 .right-panel header.header {
-  background: #fff;
+  background: #5d7cdd;
   border-bottom: 1px solid #e8e9ed;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -871,23 +871,24 @@ aside.left-panel {
   right: 0;
   top: 0;
   z-index: 999; }
-.right-panel .navbar-brand {
-  width: 250px;
-  display: inline-block; }
-.right-panel .menutoggle {
-  padding-top: 7px; }
-.right-panel .navbar-header {
-  width: 100%;
-  background-color: #fff;
-  padding: 0 1.25em 0 0; }
-  .right-panel .navbar-header > a {
+  .right-panel .navbar-brand {
+    color: #ffffff;
+    width: 250px;
     display: inline-block; }
-.right-panel .navbar-brand {
-  line-height: 42px; }
-  .right-panel .navbar-brand img {
-    max-width: 145px; }
-  .right-panel .navbar-brand.hidden {
-    display: none; }
+  .right-panel .menutoggle {
+    padding-top: 7px; }
+  .right-panel .navbar-header {
+    width: 100%;
+    background-color: #5d7cdd;
+    padding: 0 1.25em 0 0; }
+    .right-panel .navbar-header > a {
+      display: inline-block; }
+  .right-panel .navbar-brand {
+    line-height: 42px; }
+    .right-panel .navbar-brand img {
+      max-width: 145px; }
+    .right-panel .navbar-brand.hidden {
+      display: none; }
 
 .open .right-panel {
   margin-left: 83px; }
