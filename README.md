@@ -1,1 +1,1 @@
-# soma-ong-gama-academy
+# Assignments Big Boss Gama Academy - Grupo Soma 
