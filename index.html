@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
         <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
+       
         <link href="https://cdn.jsdelivr.net/npm/chartist@0.11.0/dist/chartist.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/jqvmap@1.5.1/dist/jqvmap.min.css" rel="stylesheet">
 
@@ -57,14 +57,12 @@
             #flotLine5  {
                 height: 105px;
             }
-
             #flotBarChart {
                 height: 150px;
             }
             #cellPaiChart{
                 height: 160px;
             }
-
         </style>
     </head>
     <body>
@@ -157,8 +155,8 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="score">
                                 <h5>Média Pipe Score</h5>
-                                <div class="d-flex flex-row">
-                                    <div class="d-flex align-items-start score-value">64,35</div>
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="d-flex align-items-center score-value">64,35</div>
                                     <div class="d-flex align-items-center delta-up"><b>+ 10pts </b>
                                         <span>
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,6 +223,62 @@
                         </div>
                     </div>
                     <!-- /Widgets -->
+                    <!-- Warning Clients -->
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="warning-clients">
+                                <div>Clientes em alerta</div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body--">
+                                    <div class="table-stats order-table ov-h">
+                                        <table class="table ">
+                                            <thead>
+                                                <tr>
+                                                    <th class="serial">#</th>                                           
+                                                    <th>ID</th>
+                                                    <th>Cliente</th>
+                                                    <th>Produto</th>
+                                                    <th>Pipe Score</th>
+                                                    <th>Churn</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="serial">01</td>
+                                                    <td> 829323 </td>
+                                                    <td><span class="name">Facebook Inc.</span></td>
+                                                    <td><span class="product">Instagram</span></td>
+                                                    <td><span class="count">60/100</span></td>
+                                                    <td><span class="">46%</span></td>
+                                                    <td><span class="">Em observação</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">02</td>
+                                                    <td> 829324 </td>
+                                                    <td><span class="name">Gama Academy</span></td>
+                                                    <td><span class="product">Gama Academy</span></td>
+                                                    <td><span class="count">60/100</span></td>
+                                                    <td><span class="">46%</span></td>
+                                                    <td><span class="">Em observação</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">03</td>
+                                                    <td> 829325 </td>
+                                                    <td><span class="name">Gama Academy</span></td>
+                                                    <td><span class="product">Gama Academy</span></td>
+                                                    <td><span class="count">60/100</span></td>
+                                                    <td><span class="">46%</span></td>
+                                                    <td><span class="">Em observação</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div> <!-- /.table-stats -->
+                                </div>
+                            </div> <!-- /.card -->
+                        </div>  <!-- /.col-lg-8 -->
+                    </div>
                 </div>
                 <!-- .animated -->
             </div>
@@ -276,14 +330,12 @@
         <script>
             jQuery(document).ready(function($) {
                 "use strict";
-
                 // Pie chart flotPie1
                 var piedata = [
                     { label: "Desktop visits", data: [[1,32]], color: '#5c6bc0'},
                     { label: "Tab visits", data: [[1,33]], color: '#ef5350'},
                     { label: "Mobile visits", data: [[1,35]], color: '#66bb6a'}
                 ];
-
                 $.plot('#flotPie1', piedata, {
                     series: {
                         pie: {
@@ -326,12 +378,10 @@
                         hoverable: true,
                         clickable: true
                     }
-
                 });
                 // cellPaiChart End
                 // Line Chart  #flotLine5
                 var newCust = [[0, 3], [1, 5], [2,4], [3, 7], [4, 9], [5, 3], [6, 6], [7, 4], [8, 10]];
-
                 var plot = $.plot($('#flotLine5'),[{
                     data: newCust,
                     label: 'New Data Flow',
@@ -383,7 +433,6 @@
                         showGrid: true
                     }
                 });
-
                     chart.on('draw', function(data) {
                         if(data.type === 'line' || data.type === 'area') {
                             data.element.animate({
@@ -443,7 +492,6 @@
                                 mode: 'nearest',
                                 intersect: true
                             }
-
                         }
                     } );
                 }
