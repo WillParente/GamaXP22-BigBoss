@@ -1,21 +1,8 @@
-/* This css file is to over write bootstarp css
---------------------------------------------------------- /
-* Theme Name: Ela Admin Template
-* Theme URI: http://demos.jeweltheme.com/
-* Author: jewel_theme
-* Author URI: http://themeforest.net/user/jewel_theme/portfolio
-* Description:
-* Version: 1.0.0
-* License: GNU General Public License v2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-* Tags: html, themplate, Ela Admin
---------------------------------------------------------- */
-/* 
-Googel Fonts  */
+/* Googel Fonts  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
-/* Googel Fonts End  
-*/
+/* Googel Fonts End */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
 .bg-flat-color-1 {
   background: #00c292; }
 
@@ -130,10 +117,8 @@ Googel Fonts  */
 .mb-15 {
   margin-bottom: 15px; }
 
-/* 
-Googel Fonts  */
-/* Googel Fonts End  
-*/
+/* Googel Fonts  */
+/* Googel Fonts End  */
 .bg-flat-color-1 {
   background: #00c292; }
 
@@ -1228,14 +1213,34 @@ header .form-inline {
   text-align: center;
   color: #000000; }
 
+/* clients */
 .warning-clients{
-  font-family: Source Sans Pro;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 150%;
+  font-weight: 500;
+  font-size: 24px;
   color: #000000;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
+.table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  margin-top: -8px;
+  background: transparent;
+  font-family: Roboto;
+  font-style: normal; }
+.table-head{
+  font-weight: normal;
+  font-size: 13px;
+  color: #000000; }
+.table-row{
+  background: #ffffff;
+  font-weight: normal;
+  font-size: 13px;
+  color: #000000;}
+.fa-circle{
+  margin-right: 10px;
+  color: #FFAA2C;
+}
 
 #menuToggle2 {
   padding-left: 25px; }
@@ -2832,7 +2837,7 @@ header.fixed-top {
 
 .menutoggle {
   background-color: transparent;
-  color: #99abb4 !important;
+  color: #fff !important;
   cursor: pointer;
   font-size: 1em;
   height: 40px;
@@ -3148,14 +3153,13 @@ header .form-inline {
   font-size: 16px;
   color: #DE1313; }
 
-/* Widget */
+/* Card */
 .period{
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  color: #000000;
-}
+  color: #000000; }
 
 .card-value{
   width: 100px;
@@ -3452,34 +3456,6 @@ header .form-inline {
     font-family: 'Open Sans';
     font-size: 12px; }
 
-/* Stats Table */
-.table-stats table {
-  font-family: 'Open Sans'; }
-  .table-stats table th,
-  .table-stats table td {
-    border: none;
-    border-bottom: 1px solid #e8e9ef;
-    color: #868e96;
-    font-size: 12px;
-    font-weight: normal;
-    padding: .75em 1.25em;
-    text-transform: uppercase; }
-    .table-stats table th img,
-    .table-stats table td img {
-      margin-right: 10px;
-      max-width: 45px; }
-    .table-stats table th .name,
-    .table-stats table td .name {
-      color: #343a40;
-      font-size: 14px;
-      text-transform: capitalize; }
-  .table-stats table td {
-    color: #343a40;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: capitalize;
-    vertical-align: middle; }
-
 /* Timeline */
 .timeline li {
   font-family: 'Open Sans';
@@ -3596,339 +3572,6 @@ header .form-inline {
 .buttons button {
   margin: 2px 0; }
 
-/* Ribons */
-.corner-ribon {
-  text-align: center;
-  width: 71px;
-  height: 71px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 20px; }
-
-.corner-ribon i {
-  padding: 10px 0 0 35px;
-  color: #fff; }
-
-.twt-feed .wtt-mark {
-  color: rgba(255, 255, 255, 0.15);
-  font-size: 160px;
-  position: absolute;
-  top: 10px;
-  left: 40%; }
-
-.twt-feed {
-  -webkit-border-radius: 4px 4px 0 0;
-  color: #FFFFFF;
-  padding: 40px 10px 10px;
-  position: relative;
-  min-height: 170px; }
-
-.weather-category {
-  padding: 15px 0;
-  color: #74829C; }
-  .weather-category ul li {
-    width: 32%;
-    text-align: center;
-    border-right: 1px solid #e6e6e6;
-    display: inline-block; }
-
-.twt-feed.blue-bg {
-  background: #58C9F3; }
-
-.twt-category {
-  display: inline-block;
-  margin-bottom: 11px;
-  margin-top: 10px;
-  width: 100%; }
-  .twt-category ul li {
-    color: #bdbdbd;
-    font-size: 13px; }
-
-.twt-footer {
-  padding: 12px 15px; }
-
-.twt-footer, .twt-footer a {
-  color: #d2d2d2; }
-
-/* Button Reset */
-.btn, .button {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  border-radius: 3;
-  cursor: pointer; }
-
-/* Icons */
-.icon-section {
-  margin: 0 0 3em;
-  clear: both;
-  overflow: hidden; }
-
-.icon-container {
-  width: 240px;
-  padding: .7em 0;
-  float: left;
-  position: relative;
-  text-align: left; }
-
-.icon-container [class^="ti-"],
-.icon-container [class*=" ti-"] {
-  color: #000;
-  position: absolute;
-  margin-top: 3px;
-  -webkit-transition: .3s;
-  transition: .3s; }
-
-.icon-container:hover [class^="ti-"],
-.icon-container:hover [class*=" ti-"] {
-  font-size: 2.2em;
-  margin-top: -5px; }
-
-.icon-container:hover .icon-name {
-  color: #000; }
-
-.icon-name {
-  color: #aaa;
-  margin-left: 35px;
-  font-size: 14px;
-  -webkit-transition: .3s;
-  transition: .3s; }
-
-.icon-container:hover .icon-name {
-  margin-left: 45px; }
-
-.fontawesome-icon-list .page-header {
-  border-bottom: 1px solid #C9CDD7;
-  padding-bottom: 9px;
-  margin: 30px 0px 27px 0px; }
-.fontawesome-icon-list h2 {
-  margin-top: 0;
-  font-size: 20px;
-  font-weight: 300; }
-.fontawesome-icon-list i {
-  font-style: 16px;
-  padding-right: 10px; }
-
-.social-box i {
-  line-height: 110px; }
-.social-box ul {
-  display: inline-block;
-  margin: 7px 0 0;
-  padding: 10px;
-  width: 100%; }
-  .social-box ul li {
-    color: #949CA0;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 0 10px 0 0;
-    text-align: right; }
-    .social-box ul li:last-child {
-      padding-left: 10px;
-      padding-right: 0;
-      text-align: left; }
-    .social-box ul li span {
-      font-size: 14px; }
-
-.login-logo {
-  text-align: center;
-  margin-bottom: 15px; }
-  .login-logo span {
-    color: #ffffff;
-    font-size: 24px; }
-
-.login-content {
-  max-width: 540px;
-  margin: 8vh auto; }
-
-.login-form {
-  background: #ffffff;
-  padding: 30px 30px 20px;
-  border-radius: 2px; }
-
-.login-form h4 {
-  color: #878787;
-  text-align: center;
-  margin-bottom: 50px; }
-
-.login-form .checkbox {
-  color: #878787; }
-
-.login-form .checkbox label {
-  text-transform: none; }
-
-.login-form .btn {
-  width: 100%;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 15px;
-  border: 0px; }
-
-.login-form label {
-  color: #878787;
-  text-transform: uppercase; }
-
-.login-form label a {
-  color: #ff2e44; }
-
-.social-login-content {
-  margin: 0px -30px;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-  padding: 30px 0px;
-  background: #fcfcfc; }
-
-.social-button {
-  padding: 0 30px; }
-  .social-button .facebook {
-    background: #3b5998;
-    color: #fff; }
-    .social-button .facebook:hover {
-      background: #344e86; }
-  .social-button .twitter {
-    background: #00aced;
-    color: #fff; }
-    .social-button .twitter:hover {
-      background: #0099d4; }
-
-.social-button i {
-  padding: 19px; }
-
-.register-link a {
-  color: #ff2e44; }
-
-.cpu-load {
-  width: 100%;
-  height: 272px;
-  font-size: 14px;
-  line-height: 1.2em; }
-
-.cpu-load-data-content {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 40px; }
-
-.cpu-load-data {
-  margin-bottom: 30px; }
-
-.cpu-load-data li {
-  display: inline-block;
-  width: 32.5%;
-  text-align: center;
-  border-right: 1px solid #e7e7e7; }
-
-.cpu-load-data li:last-child {
-  border-right: 0px; }
-
-.nestable-cart {
-  overflow: hidden; }
-
-/* Forms */
-.input-group-addon {
-  background-color: transparent;
-  border-left: 0; }
-
-.input-group-addon, .input-group-btn {
-  white-space: nowrap;
-  vertical-align: middle; }
-
-.input-group-addon {
-  padding: .5rem .75rem;
-  margin-bottom: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.25;
-  color: #495057;
-  text-align: center;
-  background-color: #e9ecef;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: .25rem; }
-
-.flotTip {
-  background: #252525;
-  border: 1px solid #252525;
-  padding: 5px 15px;
-  color: #ffffff; }
-
-.flot-container {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 100%;
-  height: 275px;
-  padding: 20px 15px 15px;
-  margin: 15px auto 30px;
-  background: transparent; }
-
-.flot-pie-container {
-  height: 275px; }
-
-.flotBar-container {
-  height: 275px; }
-
-.flot-line {
-  width: 100%;
-  height: 100%;
-  font-size: 14px;
-  line-height: 1.2em; }
-
-.legend table {
-  border-spacing: 5px; }
-
-#chart1,
-#flotBar,
-#flotCurve {
-  width: 100%;
-  height: 275px; }
-
-.morris-hover {
-  position: absolute;
-  z-index: 1; }
-
-.morris-hover.morris-default-style .morris-hover-row-label {
-  font-weight: bold;
-  margin: 0.25em 0; }
-
-.morris-hover.morris-default-style .morris-hover-point {
-  white-space: nowrap;
-  margin: 0.1em 0; }
-
-.morris-hover.morris-default-style {
-  border-radius: 2px;
-  padding: 10px 12px;
-  color: #666;
-  background: rgba(0, 0, 0, 0.7);
-  border: none;
-  color: #fff !important; }
-
-.morris-hover-point {
-  color: rgba(255, 255, 255, 0.8) !important; }
-
-#morris-bar-chart {
-  height: 285px; }
-
-.map, .vmap {
-  width: 100%;
-  height: 400px; }
-
-.btn-toolbar {
-  float: left !important; }
-  .btn-toolbar .btn-outline-secondary:not([disabled]):not(.disabled):active,
-  .btn-toolbar .btn-outline-secondary:not([disabled]):not(.disabled).active,
-  .btn-toolbar .show > .btn-outline-secondary.dropdown-toggle {
-    background-color: #212529;
-    border-color: #212529;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: #fff; }
-  .btn-toolbar .btn-outline-secondary:hover {
-    background-color: #212529;
-    border-color: #212529;
-    color: #fff; }
-
 
 /* Mixed Styles */
 .badges h1, .badges h2, .badges h3, .badges h4, .badges h5, .badges h6 {
@@ -3970,59 +3613,6 @@ footer.site-footer {
     footer.site-footer .footer-inner a {
       color: #6a7074; }
 
-.calender-cont {
-  position: relative;
-  padding-top: 20px; }
-  .calender-cont .fc-title {
-    color: #fff; }
-  .calender-cont .fc-center {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .calender-cont .fc-center h2 {
-      font-size: 16px;
-      font-weight: 700; }
-  .calender-cont td .fc-event {
-    border: 0px solid transparent;
-    padding: 1px; }
-  .calender-cont td .fc-time {
-    color: white;
-    font-weight: 400;
-    font-size: 11px;
-    padding: 2px; }
-  .calender-cont .fc-left .fc-button-group {
-    position: absolute;
-    top: 0;
-    right: 0; }
-    .calender-cont .fc-left .fc-button-group button {
-      height: 20px;
-      width: 20px;
-      line-height: 18px;
-      padding: 0;
-      border: 0px solid transparent;
-      background: #eceff1;
-      color: #889196; }
-      .calender-cont .fc-left .fc-button-group button.fc-prev-button {
-        margin-right: 4px; }
-      .calender-cont .fc-left .fc-button-group button .fc-icon {
-        font-size: 11px; }
-      .calender-cont .fc-left .fc-button-group button:hover {
-        background: #d8d8d8; }
-  .calender-cont.widget-calender {
-    padding-top: 20px; }
-    .calender-cont.widget-calender td, .calender-cont.widget-calender th {
-      font-size: 14px;
-      border: 0px solid transparent; }
-    .calender-cont.widget-calender .fc-right {
-      display: none; }
-    .calender-cont.widget-calender .fc-today-button {
-      display: none; }
-    .calender-cont.widget-calender .fc-widget-content {
-      height: 45px !important;
-      min-height: 45px !important; }
-    .calender-cont.widget-calender .fc-day-grid-container {
-      max-height: 250px !important;
-      overflow: hidden !important; }
 
 @media (max-width: 1680px) {
   .timeline li {
@@ -4372,5 +3962,3 @@ footer.site-footer {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
-
-/*# sourceMappingURL=style.css.map */
