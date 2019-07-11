@@ -536,6 +536,7 @@ canvas {
       top: 0; }
 
 /* Global Styles */
+
 /* Main Styles */
 aside.left-panel {
   background: #fff;
@@ -854,6 +855,7 @@ aside.left-panel {
     width: 250px;
     display: inline-block; }
   .right-panel .menutoggle {
+    color: #fff;
     padding-top: 7px; }
   .right-panel .navbar-header {
     width: 100%;
@@ -879,9 +881,12 @@ header.fixed-top {
 
 .menutoggle {
   background-color: transparent;
-  color: #99abb4 !important;
+  color: #ffffff !important;
   cursor: pointer;
-  font-size: 1em;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
   height: 40px;
   line-height: 40px;
   width: 40px;
@@ -1155,6 +1160,7 @@ header .form-inline {
     font-weight: 500;
     font-size: 14px; }
 
+/* Dashboard - Greetings*/
 .greetings{
   font-family: Source Sans Pro;
   font-style: normal;
@@ -1195,7 +1201,7 @@ header .form-inline {
   font-size: 16px;
   color: #DE1313; }
 
-/* Cards */
+/* Dashboard - Cards */
 .period{
   font-family: Roboto;
   font-style: normal;
@@ -1213,7 +1219,7 @@ header .form-inline {
   text-align: center;
   color: #000000; }
 
-/* clients */
+/* Dashboard - client list */
 .warning-clients{
   font-family: Roboto;
   font-style: normal;
@@ -1241,6 +1247,83 @@ header .form-inline {
   margin-right: 10px;
   color: #FFAA2C;
 }
+
+/* Client - Header*/
+.client-header{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000; }
+  .client-logo{
+    width: 80px;
+    height: 80px;
+    margin: 0 30px 30px 0; }
+  .client-title{
+    font-size: 32px; }
+  .client-subtitle {
+    font-size: 16px; }
+
+progress{
+  background: #04B816;
+  width: 212px;
+  height: 16px;
+  border-radius: 2px 0px 0px 2px;
+  margin-bottom: 20px; }
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; }
+.progress-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 30px; }
+.section-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000; }
+.btn-custom {
+  padding: 5px 25px 5px 25px;
+  border-radius: 70px;
+  margin: 25px 25px 40px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;  }
+
+/* Client - metrics */
+.flot-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 275px;
+  padding: 20px 15px 15px;
+  margin: 15px auto 30px;
+  background: transparent; }
+
+.flot-pie-container {
+  height: 275px; }
+
+.flotBar-container {
+  height: 275px; }
+
+.flot-line {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.2em; }
+
+/*.card-score {
+  border: 1px solid red;
+  width: 389px;
+  height: 424px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; } */
 
 #menuToggle2 {
   padding-left: 25px; }
@@ -1540,59 +1623,6 @@ footer.site-footer {
     footer.site-footer .footer-inner a {
       color: #6a7074; }
 
-.calender-cont {
-  position: relative;
-  padding-top: 20px; }
-  .calender-cont .fc-title {
-    color: #fff; }
-  .calender-cont .fc-center {
-    position: absolute;
-    top: 0;
-    left: 0; }
-    .calender-cont .fc-center h2 {
-      font-size: 16px;
-      font-weight: 700; }
-  .calender-cont td .fc-event {
-    border: 0px solid transparent;
-    padding: 1px; }
-  .calender-cont td .fc-time {
-    color: white;
-    font-weight: 400;
-    font-size: 11px;
-    padding: 2px; }
-  .calender-cont .fc-left .fc-button-group {
-    position: absolute;
-    top: 0;
-    right: 0; }
-    .calender-cont .fc-left .fc-button-group button {
-      height: 20px;
-      width: 20px;
-      line-height: 18px;
-      padding: 0;
-      border: 0px solid transparent;
-      background: #eceff1;
-      color: #889196; }
-      .calender-cont .fc-left .fc-button-group button.fc-prev-button {
-        margin-right: 4px; }
-      .calender-cont .fc-left .fc-button-group button .fc-icon {
-        font-size: 11px; }
-      .calender-cont .fc-left .fc-button-group button:hover {
-        background: #d8d8d8; }
-  .calender-cont.widget-calender {
-    padding-top: 20px; }
-    .calender-cont.widget-calender td, .calender-cont.widget-calender th {
-      font-size: 14px;
-      border: 0px solid transparent; }
-    .calender-cont.widget-calender .fc-right {
-      display: none; }
-    .calender-cont.widget-calender .fc-today-button {
-      display: none; }
-    .calender-cont.widget-calender .fc-widget-content {
-      height: 45px !important;
-      min-height: 45px !important; }
-    .calender-cont.widget-calender .fc-day-grid-container {
-      max-height: 250px !important;
-      overflow: hidden !important; }
 
 @media (max-width: 1680px) {
   .timeline li {
