@@ -22,8 +22,8 @@
                     //borderColor: "rgba(0,0,0,0.09)",
                     borderWidth: "0",
                     backgroundColor: "rgba(255, 170, 44, 0.5)"
-                            }
-                        ]
+                }
+            ]
         },
         options: {
             scales: {
