@@ -2446,6 +2446,8 @@ canvas {
     background: #00c292; }
   .order-table .badge-pending {
     background: #fb9678; }
+  .order-table .badge-red {
+    background: #ec3801; }  
 
 .messenger-box {
   padding-top: 15px; }
