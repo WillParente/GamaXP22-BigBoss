@@ -1,11 +1,11 @@
 (function($){
 
     "use strict"; // Start of use strict
-   
+
     var SufeeAdmin = {
-   
+
        line2Flot: function(){
-   
+
            // first chart
            var chart1Options = {
                series: {
@@ -13,7 +13,7 @@
                        show: true
                    },
                    points: {
-                       show: true
+                       show: false
                    }
                },
                xaxis: {
@@ -42,7 +42,7 @@
                label: "chart1",
                color: "#007BFF",
                data: [
-             [ 1354521600000, 6322 ],
+             [ 1354840000000, 6340 ],
              [ 1354840000000, 6340 ],
              [ 1355223600000, 6368 ],
              [ 1355306400000, 6374 ],
@@ -52,10 +52,9 @@
            };
            $.plot( $( "#chart1" ), [ chart1Data ], chart1Options );
        }
-   
    };
-   
+
    $(document).ready(function() {
        SufeeAdmin.line2Flot();});
-   
+
    })(jQuery);
