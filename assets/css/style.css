@@ -809,11 +809,6 @@ footer.site-footer {
     width: 220px;
     padding-bottom: 5px; }
   .right-panel .menutoggle {
-<<<<<<< HEAD
-    width: 20px; } 
-  } 
-}
-=======
     width: 20px; } }
 #cellPaiChart {
   height: 160px; }
@@ -2850,4 +2845,3 @@ footer.site-footer {
   #cellPaiChart #pieLabel0 {
     left: inherit !important;
     right: 20px !important; }
->>>>>>> 736c2136cc8135f4b5cde9867a4c1bd9eb327993
