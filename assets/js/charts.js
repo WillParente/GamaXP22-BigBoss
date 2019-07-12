@@ -15,7 +15,7 @@
                     //borderColor: "rgba(0, 194, 146, 0.9)",
                     borderWidth: "0",
                     backgroundColor: "#04B816"
-                            },
+                },
                 {
                     label: "Período anterior",
                     data: [ 60, 72, 62, 68, 63, 49, 72, 55, 51 ],
